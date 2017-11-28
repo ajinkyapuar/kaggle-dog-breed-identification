@@ -203,3 +203,7 @@ venv.bak/
 .mypy_cache/
 
 # End of https://www.gitignore.io/api/macos,python,pycharm,jupyternotebook
+.idea/kaggle-dog-breed-identification.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
