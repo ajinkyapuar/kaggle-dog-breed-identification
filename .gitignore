@@ -208,4 +208,4 @@ venv.bak/
 .idea/modules.xml
 .idea/vcs.xml
 
-data
+data/
