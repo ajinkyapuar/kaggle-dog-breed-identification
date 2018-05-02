@@ -210,3 +210,4 @@ venv.bak/
 .idea/emacs.xml
 
 data/
+input/
