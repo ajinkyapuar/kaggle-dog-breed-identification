@@ -7,6 +7,7 @@
 
 `ARCHITECTURE="mobilenet_1.0_${IMAGE_SIZE}"`
 
+```
 python -m scripts.retrain \
 --bottleneck_dir=tf_files/bottlenecks \
 --model_dir=tf_files/models/"${ARCHITECTURE}" \
@@ -15,6 +16,7 @@ python -m scripts.retrain \
 --output_labels=tf_files/breedsNet.txt \
 --architecture="${ARCHITECTURE}" \
 --image_dir=data/dog_breeds
+```
 
 - Final test accuracy = 79.1% (N=1037)
 
@@ -22,6 +24,7 @@ python -m scripts.retrain \
 
 `ARCHITECTURE="inception_v3"`
 
+```
 python -m scripts.retrain \
 --bottleneck_dir=tf_files/bottlenecks \
 --model_dir=tf_files/models/"${ARCHITECTURE}" \
@@ -30,5 +33,6 @@ python -m scripts.retrain \
 --output_labels=tf_files/anglesCeption.txt \
 --architecture="${ARCHITECTURE}" \
 --image_dir=data/dog_breeds
+```
 
 - Final test accuracy = 90.3% (N=1037)
