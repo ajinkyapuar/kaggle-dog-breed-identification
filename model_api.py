@@ -55,7 +55,7 @@ def predict():
     # END Tensorflow part
     ##################################################
 
-    json_data = json.dumps({'y': y_out})
+    json_data = json.dumps({'y': y_out.tolist()})
     print("Time spent handling the request: %f" % (time.time() - start))
 
     return json_data
